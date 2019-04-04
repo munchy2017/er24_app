@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin"
+    tools:context="com.example.prosp.sos.users.Register">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="FullName"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/editText5pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <EditText
+        android:id="@+id/editText5pass"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/btnRegister"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLinkToLoginScreen"
+        android:layout_alignLeft="@+id/editText5pass"
+        android:layout_alignStart="@+id/editText5pass"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/buttonshape"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/btnLinkToLoginScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="Already Registered !! Login"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+</RelativeLayout>

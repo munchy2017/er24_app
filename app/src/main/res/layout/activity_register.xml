@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin"
+    tools:context="com.example.prosp.er24.users.Register">
+
+
+    <EditText
+        android:id="@+id/editText3mail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <EditText
+        android:id="@+id/allergies"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/suff"
+        android:layout_alignStart="@+id/suff"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Allergies"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <EditText
+        android:id="@+id/med"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/allergies"
+        android:layout_alignLeft="@+id/allergies"
+        android:layout_alignRight="@+id/allergies"
+        android:layout_alignStart="@+id/allergies"
+        android:layout_below="@+id/allergies"
+        android:ems="10"
+        android:hint="Medical Aid"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <EditText
+        android:id="@+id/suff"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3mail"
+        android:layout_alignStart="@+id/editText3mail"
+        android:layout_below="@+id/med"
+        android:ems="10"
+        android:hint="Suffix"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/buttonshape"
+        android:text="Finish"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/gender"
+        android:layout_alignLeft="@+id/gender"
+        android:layout_alignRight="@+id/gender"
+        android:layout_alignStart="@+id/gender"
+        android:layout_below="@+id/gender" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText3mail"
+        android:layout_alignLeft="@+id/editText3mail"
+        android:layout_alignRight="@+id/editText3mail"
+        android:layout_alignStart="@+id/editText3mail"
+        android:layout_below="@+id/editText3mail"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/suff"
+        android:layout_alignLeft="@+id/suff"
+        android:layout_alignRight="@+id/suff"
+        android:layout_alignStart="@+id/suff"
+        android:layout_below="@+id/suff"
+        android:ems="10"
+        android:hint="Emergency Phone"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Final Step, Upload your health profile"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

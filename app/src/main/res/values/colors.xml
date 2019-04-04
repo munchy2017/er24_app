@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B71414</color>
+    <color name="colorPrimaryDark">#B4B7B5</color>
+    <color name="colorAccent">#B71414</color>
+
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#1ebfdf</color>
+    <color name="bg_slider_screen2">#1ebfdf</color>
+    <color name="bg_slider_screen3">#1ebfdf</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#1ea8df</color>
+    <color name="dot_inactive_screen2">#1ea8df</color>
+    <color name="dot_inactive_screen3">#1ea8df</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#f9c772</color>
+    <color name="dot_active_screen2">#74f7c5</color>
+    <color name="dot_active_screen3">#3a67e0</color>
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
+
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+
+
+
+    <color name="colorText">#ffffff</color>
+    <drawable name="touchFeedback">#CFD8DC</drawable>
+    <color name="lineColor">#12000000</color>
+
+
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ER24</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+
+    <!--End-->
+
+
+    <!--sliderIntro-->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Welcome To ER24</string>
+    <string name="slide_1_desc">Access Ambulance Service By Simply Texting Your Location</string>
+    <string name="slide_2_title">Nearest Hospitals AND Pharmacies </string>
+    <string name="slide_2_desc">Aid in finding nearest hospitals and pharmacies within your location range</string>
+    <string name="slide_3_title">Our Doctors</string>
+    <string name="slide_3_desc">Contact our doctors directly by WhatsApp and Direct Calling</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_search_near_by_places2">Map</string>
+
+</resources>
